@@ -1,11 +1,9 @@
-import { Camera, Instagram, Mail, MessageCircle, Globe, Share2 } from 'lucide-react';
+import { Camera, Mail, Globe, Share2 } from 'lucide-react';
 import { motion } from 'motion/react';
 
 const links = [
   { name: 'PORTOFOLIO', url: '#', icon: <Globe className="w-5 h-5" /> },
   { name: 'CONTACT', url: '#', icon: <Mail className="w-5 h-5" /> },
-  { name: 'INSTAGRAM', url: '#', icon: <Instagram className="w-5 h-5" /> },
-  { name: 'WHATSAPP', url: '#', icon: <MessageCircle className="w-5 h-5" /> },
 ];
 
 export default function App() {
