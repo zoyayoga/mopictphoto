@@ -9,15 +9,14 @@ const links = [
 export default function App() {
   return (
     <div className="relative min-h-screen w-full overflow-hidden font-sans selection:bg-white selection:text-black">
-      {/* Background Image with Overlay */}
+      {/* Background Image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000"
         style={{ 
-          backgroundImage: `url('https://lh3.googleusercontent.com/d/10G1A-UhBQzZa5tCuav91okGvL5H48Nd1')`,
-          filter: 'brightness(0.3) contrast(1.1)'
+          backgroundImage: `url('https://lh3.googleusercontent.com/d/10G1A-UhBQzZa5tCuav91okGvL5H48Nd1')`
         }}
       />
-      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/60 via-transparent to-black/80" />
+      {/* Removed overlay gradient for better visibility */}
 
       {/* Main Content */}
       <main className="relative z-20 flex flex-col items-center justify-center min-h-screen px-6 py-12 text-center max-w-2xl mx-auto">
