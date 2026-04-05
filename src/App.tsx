@@ -2,8 +2,8 @@ import { Camera, Mail, Globe, Share2 } from 'lucide-react';
 import { motion } from 'motion/react';
 
 const links = [
-  { name: 'PORTOFOLIO', url: '#', icon: <Globe className="w-5 h-5" /> },
-  { name: 'CONTACT', url: '#', icon: <Mail className="w-5 h-5" /> },
+  { name: 'PORTOFOLIO', url: 'http://bit.ly/4c32oAi', icon: <Globe className="w-5 h-5" /> },
+  { name: 'CONTACT', url: 'https://wa.link/vwmosn', icon: <Mail className="w-5 h-5" /> },
 ];
 
 export default function App() {
